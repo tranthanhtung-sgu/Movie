@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FJQw8cflo4LoQC4Wsip71hO1IF9eUR0lzS9tihaUbtEkPjWQSpjO37P+nTZUERyQDJTALkkKEaiQA5BcasWWQg==",
+  "dgSpecHash": "aw0q/ftElg9oJFa3n5JOrNcUEGpxyB3EABwA50YD3IweuhaJySqZNI9BSl9Wv08CbOTiFQ3DG1/vIvqy9TFk6w==",
   "success": true,
-  "projectFilePath": "/Users/tranthanhtung/Desktop/Movie/Domain/Domain.csproj",
+  "projectFilePath": "/Users/tranthanhtung/Downloads/Movie/Domain/Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

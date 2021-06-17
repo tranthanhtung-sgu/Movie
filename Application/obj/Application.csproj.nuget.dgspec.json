@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/tranthanhtung/Desktop/Movie/Application/Application.csproj": {}
+    "/Users/tranthanhtung/Downloads/Movie/Application/Application.csproj": {}
   },
   "projects": {
-    "/Users/tranthanhtung/Desktop/Movie/Application/Application.csproj": {
+    "/Users/tranthanhtung/Downloads/Movie/Application/Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/tranthanhtung/Desktop/Movie/Application/Application.csproj",
+        "projectUniqueName": "/Users/tranthanhtung/Downloads/Movie/Application/Application.csproj",
         "projectName": "Application",
-        "projectPath": "/Users/tranthanhtung/Desktop/Movie/Application/Application.csproj",
+        "projectPath": "/Users/tranthanhtung/Downloads/Movie/Application/Application.csproj",
         "packagesPath": "/Users/tranthanhtung/.nuget/packages/",
-        "outputPath": "/Users/tranthanhtung/Desktop/Movie/Application/obj/",
+        "outputPath": "/Users/tranthanhtung/Downloads/Movie/Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/tranthanhtung/.nuget/NuGet/NuGet.Config"
@@ -26,11 +26,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/Users/tranthanhtung/Desktop/Movie/Domain/Domain.csproj": {
-                "projectPath": "/Users/tranthanhtung/Desktop/Movie/Domain/Domain.csproj"
+              "/Users/tranthanhtung/Downloads/Movie/Domain/Domain.csproj": {
+                "projectPath": "/Users/tranthanhtung/Downloads/Movie/Domain/Domain.csproj"
               },
-              "/Users/tranthanhtung/Desktop/Movie/Persistence/Persistence.csproj": {
-                "projectPath": "/Users/tranthanhtung/Desktop/Movie/Persistence/Persistence.csproj"
+              "/Users/tranthanhtung/Downloads/Movie/Persistence/Persistence.csproj": {
+                "projectPath": "/Users/tranthanhtung/Downloads/Movie/Persistence/Persistence.csproj"
               }
             }
           }
@@ -77,14 +77,14 @@
         }
       }
     },
-    "/Users/tranthanhtung/Desktop/Movie/Domain/Domain.csproj": {
+    "/Users/tranthanhtung/Downloads/Movie/Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/tranthanhtung/Desktop/Movie/Domain/Domain.csproj",
+        "projectUniqueName": "/Users/tranthanhtung/Downloads/Movie/Domain/Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "/Users/tranthanhtung/Desktop/Movie/Domain/Domain.csproj",
+        "projectPath": "/Users/tranthanhtung/Downloads/Movie/Domain/Domain.csproj",
         "packagesPath": "/Users/tranthanhtung/.nuget/packages/",
-        "outputPath": "/Users/tranthanhtung/Desktop/Movie/Domain/obj/",
+        "outputPath": "/Users/tranthanhtung/Downloads/Movie/Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/tranthanhtung/.nuget/NuGet/NuGet.Config"
@@ -129,14 +129,14 @@
         }
       }
     },
-    "/Users/tranthanhtung/Desktop/Movie/Persistence/Persistence.csproj": {
+    "/Users/tranthanhtung/Downloads/Movie/Persistence/Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/tranthanhtung/Desktop/Movie/Persistence/Persistence.csproj",
+        "projectUniqueName": "/Users/tranthanhtung/Downloads/Movie/Persistence/Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "/Users/tranthanhtung/Desktop/Movie/Persistence/Persistence.csproj",
+        "projectPath": "/Users/tranthanhtung/Downloads/Movie/Persistence/Persistence.csproj",
         "packagesPath": "/Users/tranthanhtung/.nuget/packages/",
-        "outputPath": "/Users/tranthanhtung/Desktop/Movie/Persistence/obj/",
+        "outputPath": "/Users/tranthanhtung/Downloads/Movie/Persistence/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/tranthanhtung/.nuget/NuGet/NuGet.Config"
@@ -151,8 +151,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/Users/tranthanhtung/Desktop/Movie/Domain/Domain.csproj": {
-                "projectPath": "/Users/tranthanhtung/Desktop/Movie/Domain/Domain.csproj"
+              "/Users/tranthanhtung/Downloads/Movie/Domain/Domain.csproj": {
+                "projectPath": "/Users/tranthanhtung/Downloads/Movie/Domain/Domain.csproj"
               }
             }
           }
@@ -173,7 +173,7 @@
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
-              "version": "[5.0.2, )"
+              "version": "[5.0.7, )"
             }
           },
           "imports": [
