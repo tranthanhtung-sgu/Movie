@@ -1,0 +1,15 @@
+/Users/tranthanhtung/Desktop/Movie/Persistence/bin/Debug/net5.0/Persistence.deps.json
+/Users/tranthanhtung/Desktop/Movie/Persistence/bin/Debug/net5.0/Persistence.dll
+/Users/tranthanhtung/Desktop/Movie/Persistence/bin/Debug/net5.0/ref/Persistence.dll
+/Users/tranthanhtung/Desktop/Movie/Persistence/bin/Debug/net5.0/Persistence.pdb
+/Users/tranthanhtung/Desktop/Movie/Persistence/obj/Debug/net5.0/Persistence.csprojAssemblyReference.cache
+/Users/tranthanhtung/Desktop/Movie/Persistence/obj/Debug/net5.0/Persistence.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tranthanhtung/Desktop/Movie/Persistence/obj/Debug/net5.0/Persistence.AssemblyInfoInputs.cache
+/Users/tranthanhtung/Desktop/Movie/Persistence/obj/Debug/net5.0/Persistence.AssemblyInfo.cs
+/Users/tranthanhtung/Desktop/Movie/Persistence/obj/Debug/net5.0/Persistence.csproj.CoreCompileInputs.cache
+/Users/tranthanhtung/Desktop/Movie/Persistence/obj/Debug/net5.0/Persistence.dll
+/Users/tranthanhtung/Desktop/Movie/Persistence/obj/Debug/net5.0/ref/Persistence.dll
+/Users/tranthanhtung/Desktop/Movie/Persistence/obj/Debug/net5.0/Persistence.pdb
+/Users/tranthanhtung/Desktop/Movie/Persistence/bin/Debug/net5.0/Domain.dll
+/Users/tranthanhtung/Desktop/Movie/Persistence/bin/Debug/net5.0/Domain.pdb
+/Users/tranthanhtung/Desktop/Movie/Persistence/obj/Debug/net5.0/Persistence.csproj.CopyComplete
