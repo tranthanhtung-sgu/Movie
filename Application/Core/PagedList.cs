@@ -15,7 +15,7 @@ namespace Application.Core
             PageSize = pageSize;
             TotalCount = count;
             AddRange(items);
-        }
+        } 
 
         public int CurrentPage { get; set; }
         public int TotalPages { get; set; }
