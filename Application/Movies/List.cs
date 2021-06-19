@@ -34,7 +34,12 @@ namespace Application.Movies
                     .Include(x => x.ChapUrl)
                     .AsQueryable();
 
-                if (request.Params.Category != "all")
+                if (request.Params.Title != null)
+                {
+                    query = query.Where(x => x.Title.ToLower().Contains(request.Params.Title.ToLower()));
+                }
+
+                if (request.Params.Category != null && request.Params.Category != "all")
                 {
                     query = query.Where(x => x.Category == request.Params.Category);
                 }
