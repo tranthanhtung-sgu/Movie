@@ -31,6 +31,7 @@ namespace Application.Movies
             public async Task<Result<PagedList<Movie>>> Handle(Query request, CancellationToken cancellationToken)
             {
                 var query = _context.Movies
+                    .Include(x => x.ChapUrl)
                     .AsQueryable();
 
                 if (request.Params.Category != "all")

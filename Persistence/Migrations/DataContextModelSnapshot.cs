@@ -19,6 +19,28 @@ namespace Persistence.Migrations
                 .HasAnnotation("ProductVersion", "5.0.7")
                 .HasAnnotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn);
 
+            modelBuilder.Entity("Domain.ChapUrl", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<int>("Chap")
+                        .HasColumnType("integer");
+
+                    b.Property<Guid?>("MovieId")
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("Url")
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("MovieId");
+
+                    b.ToTable("ChapUrl");
+                });
+
             modelBuilder.Entity("Domain.Movie", b =>
                 {
                     b.Property<Guid>("Id")
@@ -52,6 +74,18 @@ namespace Persistence.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Movies");
+                });
+
+            modelBuilder.Entity("Domain.ChapUrl", b =>
+                {
+                    b.HasOne("Domain.Movie", null)
+                        .WithMany("ChapUrl")
+                        .HasForeignKey("MovieId");
+                });
+
+            modelBuilder.Entity("Domain.Movie", b =>
+                {
+                    b.Navigation("ChapUrl");
                 });
 #pragma warning restore 612, 618
         }

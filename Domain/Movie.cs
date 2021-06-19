@@ -1,4 +1,6 @@
 using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Domain
 {
@@ -13,5 +15,6 @@ namespace Domain
         public string Director { get; set; }
         public string Time { get; set; }
         public string PublishYear { get; set; }
+        public ICollection<ChapUrl> ChapUrl { get; set; } = new List<ChapUrl>();
     }
 }

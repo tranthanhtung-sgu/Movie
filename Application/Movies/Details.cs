@@ -27,6 +27,7 @@ namespace Application.Movies
             public async Task<Result<Movie>> Handle(Query request, CancellationToken cancellationToken)
             {
                 var movie = await _context.Movies
+                    .Include(x=>x.ChapUrl)
                     .FirstOrDefaultAsync(x => x.Id == request.Id);
 
                 return Result<Movie>.Success(movie);

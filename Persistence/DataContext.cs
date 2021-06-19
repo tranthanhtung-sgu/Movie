@@ -9,9 +9,9 @@ namespace Persistence
         {
         }
         public DbSet<Movie> Movies { get; set; }
+        public DbSet<ChapUrl> ChapUrl { get; set; }
         protected override void OnModelCreating(ModelBuilder builder)
         {
-            
         }
 
 
