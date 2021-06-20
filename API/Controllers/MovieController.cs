@@ -18,12 +18,5 @@ namespace API.Controllers
         {
             return HandleResult(await Mediator.Send(new Details.Query { Id = id }));
         }
-
-        [HttpGet("all")]
-        public async Task<IActionResult> GetAll()
-        {
-            return HandleResult(await Mediator.Send(new All.Query { }));
-        }
-
     }
 }
