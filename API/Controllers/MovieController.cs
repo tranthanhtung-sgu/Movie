@@ -9,7 +9,7 @@ namespace API.Controllers
     {
 
         [HttpGet]
-        public async Task<IActionResult> GetActivities([FromQuery] MovieParams param)
+        public async Task<IActionResult> GetMovies([FromQuery] MovieParams param)
         {
             return HandlePagedResult(await Mediator.Send(new List.Query { Params = param }));
         }
@@ -18,5 +18,12 @@ namespace API.Controllers
         {
             return HandleResult(await Mediator.Send(new Details.Query { Id = id }));
         }
+
+        [HttpGet("all")]
+        public async Task<IActionResult> GetAll()
+        {
+            return HandleResult(await Mediator.Send(new All.Query { }));
+        }
+
     }
 }
